@@ -8,8 +8,6 @@ The code for the Arduino Uno with a 16x2 Display Shield can be found in the [OBD
 ![](assets/setup.png)
 ![](assets/cockpit.png)
 
-
-
 Cockpit: From left to right, top to bottom
 km driven,  L fuel remaining,  coolant temp,  fuel / 100km - km remaining
 Yellow debug timers:
