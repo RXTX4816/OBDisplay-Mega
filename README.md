@@ -1,6 +1,7 @@
 # Arduino Mega Tripcomputer for KWP1281 VAG Cars
 
 This code is for the Arduino Mega with a 480x320 Non-Touch Color Display Shield.
+Beware this may not work correctly due to timing issues.
  
 The code for the Arduino Uno with a 16x2 Display Shield can be found in the [ARDUINO_UNO branch](https://github.com/RXTX4816/OBDisplay-Uno)
 
