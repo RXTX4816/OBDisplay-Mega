@@ -39,12 +39,14 @@ If you don't want to test on a real ECU just turn your Arduino Mega into a ECU w
 
 Dependencies:
 `python -m pip install --upgrade platformio`
+or
+`sudo pacman -S platformio-core` 
 
 Build:
-`pio run 2>&1`
+`pio run`
 
 Flash:
-`todo`
+`pio run --target upload`
 
 Or just use VS Code with Platformio extension to have the buttons in the bottom line.
 
