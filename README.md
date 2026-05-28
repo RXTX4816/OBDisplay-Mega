@@ -1,5 +1,8 @@
 # Arduino Mega Tripcomputer for KWP1281 VAG Cars
 
+# NOTICE
+# DONT USE THIS! USE [OBDisplay-Uno](https://github.com/RXTX4816/OBDisplay-Uno)!!! I never got this Mega to work with HardwareSerial and will probably not work on this project in the near future, since the Arduino Uno project is good enough. If anyone gets this to work let me know.
+
 This code is for the Arduino Mega with a 480x320 Non-Touch Color Display Shield.
 Beware this may not work correctly due to timing issues.
  
