@@ -1,0 +1,34 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+#pragma once
+
+#include <Arduino.h>
+
+namespace obd
+{
+namespace Model
+{
+
+class DTCStore
+{
+  public:
+    static constexpr uint8_t MaxCount = 16;
+
+    DTCStore();
+
+    void reset();
+    void resetRandom();
+
+    static uint8_t capacity() { return MaxCount; }
+
+    uint16_t errorAt(uint8_t idx) const { return dtcErrors_[idx]; }
+    uint8_t statusAt(uint8_t idx) const { return dtcStatus_[idx]; }
+
+    void set(uint8_t idx, uint16_t error, uint8_t status);
+
+  private:
+    uint16_t dtcErrors_[MaxCount];
+    uint8_t dtcStatus_[MaxCount];
+};
+
+} // namespace Model
+} // namespace obd

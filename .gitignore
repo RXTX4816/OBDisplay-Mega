@@ -1,3 +1,8 @@
 .vscode/*
 
 .pio/*
+
+OBDisplay-Emu
+OBDisplay-Uno
+OBDisplay-Emu/*
+OBDisplay-Uno/*
